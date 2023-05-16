@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. ClientManager">
+      <UniqueIdentifier>{7fb6b921-fc36-4b88-8cd9-f4417ad1c136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{83c30c64-cd4b-4ee0-ac72-4a06cee70cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{c32de72c-f3a5-4b06-97bf-292c56dfe4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Setting">
+      <UniqueIdentifier>{0f6c1750-6e56-466a-b3e3-ea04f11503d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{ab24be06-a5c7-480c-9e7e-5496f9024e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. SaveLoad">
+      <UniqueIdentifier>{b2a97487-ad2e-48bd-9468-111ad07bdca2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>01. ClientManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\Setting\DefaultSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\Setting\EngineShareSetting.cpp">
+      <Filter>04. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\StartSceneUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\TestMonster.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\LoadingUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\Scene\LoadingSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HitEffect.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\GameStartUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\SelectPlayerUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\SelectPlayer.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\EquipmentUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\InventoryUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\StatusUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Player2D.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\QuestUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\MonsterBarUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\ElderNpc.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\ShopNpc.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Portal.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\UI\ShopUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GamePlayerSaveLoad.cpp">
+      <Filter>06. SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Helena.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Rope.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GamePlayerPosSaveLoad.cpp">
+      <Filter>06. SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HonTail.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HonTailSummon.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HonTailHitEffect.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Skelegon.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\DarkWybern.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\Respawn.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HonTailWall.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\HonTailExObj.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AR41Editor\Include\GameObject\SkillEffect.cpp">
+      <Filter>03. GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>01. ClientManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\Setting\EngineShareSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\Setting\DefaultSetting.h">
+      <Filter>04. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\StartSceneUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\TestMonster.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\LoadingUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\Scene\LoadingSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HitEffect.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\GameStartUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\SelectPlayerUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\SelectPlayer.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\EquipmentUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\InventoryUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\StatusUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Player2D.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\QuestUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\MonsterBarUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\ElderNpc.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\ShopNpc.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Portal.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\UI\ShopUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GamePlayerSaveLoad.h">
+      <Filter>06. SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Helena.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Rope.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GamePlayerPosSaveLoad.h">
+      <Filter>06. SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HonTail.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HonTailSummon.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HonTailHitEffect.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Skelegon.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\DarkWybern.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\Respawn.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HonTailWall.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\HonTailExObj.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AR41Editor\Include\GameObject\SkillEffect.h">
+      <Filter>03. GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

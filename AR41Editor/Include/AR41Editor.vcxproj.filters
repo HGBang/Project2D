@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Manager">
+      <UniqueIdentifier>{c1d5a40d-392b-4040-bedb-1c7c2714c920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scene">
+      <UniqueIdentifier>{6ca07a95-bec5-47cb-a8e1-852ebf459b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window">
+      <UniqueIdentifier>{ed73144f-fc3d-4761-8345-b92a9e0954af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject">
+      <UniqueIdentifier>{892af26d-0e4b-45ed-8ecb-b4e7473f010b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. UI">
+      <UniqueIdentifier>{cd702661-7d23-467a-ba68-1d21c91419b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Setting">
+      <UniqueIdentifier>{4d86accb-80e9-4c30-88d6-d3df8ff224fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Window\01. DetailWindow">
+      <UniqueIdentifier>{5ef30fcd-34ad-474f-8a8f-34f6d41a1931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. SaveLoad">
+      <UniqueIdentifier>{252e020d-7433-4cf7-af2a-2527a537d86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\01. Player">
+      <UniqueIdentifier>{0f5a886d-9d85-4de3-8212-22db0588891e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\02. Monster">
+      <UniqueIdentifier>{c33fef13-4c48-4c7c-86b7-15d7809f3998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\03. Boss">
+      <UniqueIdentifier>{39d9c5a5-6db2-483f-a93b-33e3c6d833ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\04. Effect">
+      <UniqueIdentifier>{9198d1e1-d21a-441b-8f75-8c0de5e6059f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. GameObject\05. Object">
+      <UniqueIdentifier>{e0da58b7-83dc-4d36-a4a9-72f1f1969093}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>01. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EditorDefaultScene.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TestWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ObjectWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ClassWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ComponentWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TransformWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\TextureWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\SceneWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\AnimationWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StartSceneUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\DefaultSetting.cpp">
+      <Filter>06. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting\EngineShareSetting.cpp">
+      <Filter>06. Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Animation2DWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\ResourceWindow.cpp">
+      <Filter>03. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TargetArmWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SceneComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\SpriteComponentWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\CameraWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\PrimitiveWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderPixelWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderOBB2DWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderBox2DWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\ColliderSphere2DWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadingSceneInfo.cpp">
+      <Filter>02. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoadingUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\DetailWindow\TileMapWidgetList.cpp">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GameStartUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SelectPlayerUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EquipmentUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StatusUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\InventoryUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\QuestUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MonsterBarUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ShopUI.cpp">
+      <Filter>05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayerSaveLoad.cpp">
+      <Filter>07. SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayerPosSaveLoad.cpp">
+      <Filter>07. SaveLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Bullet.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\DarkWybern.cpp">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HonTail.cpp">
+      <Filter>04. GameObject\03. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HonTailHitEffect.cpp">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HonTailWall.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HonTailSummon.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HonTailExObj.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player2D.cpp">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\HitEffect.cpp">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Portal.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Respawn.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Rope.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SkillEffect.cpp">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestMonster.cpp">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\TestPlayer2D.cpp">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\SelectPlayer.cpp">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ElderNpc.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Helena.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\ShopNpc.cpp">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Skelegon.cpp">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>01. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EditorDefaultScene.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TestWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ObjectWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ClassWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ComponentWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TransformWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\TextureWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\SceneWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\AnimationWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StartSceneUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\DefaultSetting.h">
+      <Filter>06. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting\EngineShareSetting.h">
+      <Filter>06. Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Animation2DWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\ResourceWindow.h">
+      <Filter>03. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TargetArmWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SceneComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\CameraWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\SpriteComponentWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\PrimitiveWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderPixelWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderOBB2DWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderBox2DWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\ColliderSphere2DWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadingSceneInfo.h">
+      <Filter>02. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\DetailWindow\TileMapWidgetList.h">
+      <Filter>03. Window\01. DetailWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoadingUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GameStartUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SelectPlayerUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\EquipmentUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatusUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\InventoryUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\QuestUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MonsterBarUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ShopUI.h">
+      <Filter>05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerSaveLoad.h">
+      <Filter>07. SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayerPosSaveLoad.h">
+      <Filter>07. SaveLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Bullet.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\DarkWybern.h">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HonTail.h">
+      <Filter>04. GameObject\03. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HonTailHitEffect.h">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HonTailWall.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HonTailSummon.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HonTailExObj.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player2D.h">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\HitEffect.h">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Portal.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Respawn.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Rope.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SkillEffect.h">
+      <Filter>04. GameObject\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestMonster.h">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\TestPlayer2D.h">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\SelectPlayer.h">
+      <Filter>04. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ElderNpc.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Helena.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\ShopNpc.h">
+      <Filter>04. GameObject\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Skelegon.h">
+      <Filter>04. GameObject\02. Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AR41Editor.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
